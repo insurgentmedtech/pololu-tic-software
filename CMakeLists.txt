@@ -35,7 +35,7 @@ if (NOT BUILD_SHARED_LIBS)
   add_definitions (-DTIC_STATIC)
 endif ()
 
-set(ENABLE_GUI TRUE CACHE BOOL
+set(ENABLE_GUI FALSE CACHE BOOL
   "True if you want to build the GUI, which depends on Qt 5.")
 
 if (NOT CMAKE_BUILD_TYPE)
